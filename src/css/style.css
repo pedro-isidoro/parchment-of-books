@@ -1,0 +1,23 @@
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: var(--body-color);
+    height: 100vh;
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    background-color: var(--header-and-footer-color);
+}
+
+.container{
+    background-color: var(--container-color);
+    max-width: 68rem;
+}
