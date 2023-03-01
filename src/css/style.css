@@ -8,19 +8,22 @@ body{
 
 
     display: grid;
-    grid: 'header header header'
+    grid: '. header .'
            '. container .'
-           'footer footer footer';
+           '. footer .';
 }
 
+/* HEADER */
 .header{
     grid-area: header;
-    background-color: var(--header-and-footer-color);
+    background-color: var(--container-color);
 
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding: 1rem;
+
+    border: 0.15rem solid black;
 }
 
 .header .menu{
@@ -32,11 +35,25 @@ body{
     font-size: 2rem;
 }
 
+.header .menu li a{
+    color: var(--heading-color);
+
+    padding: 0.6rem 1.2rem;
+    border-radius: 2rem;
+}
+
+.header .menu li a:hover{
+    background-color: var(--background-paragraph-color);
+    color: var(--paragraph-color);
+}
+
+/* CONTAINER */
 .container{
     grid-area: container;
     background-color: var(--container-color);
 
     max-width: 75rem;
+    border: 0.15rem solid black;
 }
 
 .container .books{
@@ -49,5 +66,6 @@ body{
 .footer{
     grid-area: footer;
 
-    background-color: var(--header-and-footer-color);
+    background-color: var(--container-color);
+    border: 0.15rem solid black;
 }
