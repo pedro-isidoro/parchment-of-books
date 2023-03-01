@@ -1,5 +1,7 @@
 :root{
+    --background-html-color: ;
     --general-background-color: #DFC6A8;
+    --general-background-color-2: #e2c39c;
     --heading-color: rgb(37, 29, 7);
     --heading-2-color: rgb(109, 75, 23);
     --background-paragraph-color: rgb(46, 18, 0);
