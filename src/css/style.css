@@ -3,27 +3,27 @@ html{
 }
 
 body{
-    background-color: var(--body-color);
+    background-color: var(--general-background-color);
+    margin: 2.6rem 3rem;
     height: 100vh;
-
+    border: 0.78rem double black;
+    box-shadow: 1.2rem 1.4rem rgb(37, 29, 7);
 
     display: grid;
-    grid: '. header .'
-           '. container .'
-           '. footer .';
+    grid: 'header'
+           'container'
+           'footer';
 }
 
 /* HEADER */
 .header{
     grid-area: header;
-    background-color: var(--container-color);
-
+    background-color: var(--general-background-color);
+    max-width: 100%;
+    
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 1rem;
-
-    border: 0.15rem solid black;
 }
 
 .header .menu{
@@ -50,10 +50,8 @@ body{
 /* CONTAINER */
 .container{
     grid-area: container;
-    background-color: var(--container-color);
-
-    max-width: 75rem;
-    border: 0.15rem solid black;
+    background-color: var(--general-background-color);
+    max-width: 100%;
 }
 
 .container .books{
@@ -63,9 +61,10 @@ body{
     align-items: center;
 }
 
+/* FOOTER */
 .footer{
     grid-area: footer;
+    max-width: 100%;
 
-    background-color: var(--container-color);
-    border: 0.15rem solid black;
+    background-color: var(--general-background-color);
 }
