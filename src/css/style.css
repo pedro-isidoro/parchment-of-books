@@ -7,17 +7,47 @@ body{
     height: 100vh;
 
 
+    display: grid;
+    grid: 'header header header'
+           '. container .'
+           'footer footer footer';
+}
+
+.header{
+    grid-area: header;
+    background-color: var(--header-and-footer-color);
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+}
+
+.header .menu{
+    display: flex;
+}
+
+.header .menu li{
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.container{
+    grid-area: container;
+    background-color: var(--container-color);
+
+    max-width: 75rem;
+}
+
+.container .books{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.header{
-    background-color: var(--header-and-footer-color);
-}
+.footer{
+    grid-area: footer;
 
-.container{
-    background-color: var(--container-color);
-    max-width: 68rem;
+    background-color: var(--header-and-footer-color);
 }
