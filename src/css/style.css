@@ -5,10 +5,11 @@ html{
 
 body{
     background-color: var(--general-background-color);
-    margin: 2.6rem 3rem;
-    height: 100vh;
     border: 0.78rem double black;
     box-shadow: 1.2rem 1.2rem rgba(12, 12, 12, 0.918);
+    max-height: 100%;
+    margin: 2.6rem 3rem;
+    padding: 2.8rem 1.4rem;
 
     display: grid;
     grid: 'header'
@@ -53,6 +54,7 @@ body{
     grid-area: container;
     background-color: var(--general-background-color);
     max-width: 100%;
+    max-height: 100%;
 }
 
 .container .books{
@@ -62,12 +64,39 @@ body{
     align-items: center;
 }
 
+/* TITLES */
 .container .books .general-title{
-    font-size: 2.4rem;
+    font-size: 3.8rem;
+    text-align: center;
+    margin-top: 3rem;
 }
 
 .container .books .genre .genre-title{
-    font-size: 2rem;
+    font-size: 2.8rem;
+    text-align: center;
+}
+
+.container .books .genre .book-name{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 2rem;
+}
+
+/* ARTICLES OF GENRE */
+.container .books .genre{
+    margin-top: 3.4rem;
+}
+
+
+/* Books Images */
+.container .books .genre .books-images .book{
+    display: flex;
+    width: 183px;
+    height: 285px;
+}
+
+.container .books .genre .books-images .book img{
+    width: 100%;
 }
 
 /* FOOTER */
