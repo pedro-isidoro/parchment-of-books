@@ -28,6 +28,12 @@ body{
     align-items: center;
 }
 
+/* Logo */
+.header .logo img{
+    width: 100%;
+}
+
+/* Navegation */
 .header .menu{
     display: flex;
 }
@@ -90,7 +96,7 @@ body{
     margin-top: 2rem;
 }
 
-/* ARTICLES OF GENRE */
+/* Genre ARTICLES */
 .container .books .genre{
     margin-top: 3.4rem;
 }
@@ -108,8 +114,8 @@ body{
 
 .container .books .genre .books-images .book{
     display: flex;
-    width: 183px;
-    height: 285px;
+    width: 153px;
+    height: 225px;
 }
 
 .container .books .genre .books-images .book img{
