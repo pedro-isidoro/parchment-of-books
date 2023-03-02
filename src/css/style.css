@@ -68,16 +68,24 @@ body{
 .container .books .general-title{
     font-size: 3.8rem;
     text-align: center;
+    text-transform: uppercase;
+    
     margin-top: 3rem;
+    border-bottom: 0.5rem solid black;
 }
 
 .container .books .genre .genre-title{
     font-size: 2.8rem;
     text-align: center;
+    text-transform: uppercase;
+
+    padding: 0.5rem;
+    border-left: 0.5rem solid red;
+    border-right: 0.5rem solid red;
 }
 
 .container .books .genre .book-name{
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     text-align: center;
     margin-top: 2rem;
 }
@@ -89,6 +97,15 @@ body{
 
 
 /* Books Images */
+.container .books .genre .books-images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    gap: 10px;
+    margin-top: 1.8rem;
+}
+
 .container .books .genre .books-images .book{
     display: flex;
     width: 183px;
