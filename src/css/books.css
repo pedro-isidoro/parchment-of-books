@@ -65,8 +65,11 @@
 
 /* FICCAO CIENTIFICA */
 .container .books .genre{
-    border: 0.4rem solid;
+    /*border: 0.4rem solid;
     padding: 1rem;
     border-image-source: linear-gradient(45deg, rgb(34, 33, 33), rgb(202, 188, 188));
-    border-image-slice: 1;
+    border-image-slice: 1; */
+    border: 30px solid transparent;
+    background-color: var(--background-books);
+    border-image: url(../image/borda-tipo-filme_clipdrop-background-removal.png) 150 round;
 }

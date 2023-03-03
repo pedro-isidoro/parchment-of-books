@@ -2,10 +2,12 @@
     --background-html-color: ;
     --general-background-color: #DFC6A8;
     --general-background-color-2: #e2c39c;
-    --heading-color: rgb(37, 29, 7);
-    --heading-2-color: rgb(109, 75, 23);
-    --background-paragraph-color: rgb(46, 18, 0);
-    --paragraph-color: rgb(235, 219, 195);
+    --heading-color: ;
+    --headings-color: ;
+    --background-paragraph-color: ;
+    --paragraph-color: ;
+
+    --background-books: rgb(220, 173, 75);
     
     --link-color: ;
     --icon-instagram-color: ;

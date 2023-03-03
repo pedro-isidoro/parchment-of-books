@@ -1,6 +1,8 @@
 html{
     font-size: 62.5%;
-    background-color: rgb(56, 47, 23);
+    background-image: url(../image/pergaminho-borda-vermelha_clipdrop-background-removal.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 body{
