@@ -1,11 +1,11 @@
 html{
     font-size: 62.5%;
-    background-color: var(--background-html-color);
 }
 
 body{
     /* OPÇÃO DE BORDA 1 */
     border: 3rem solid transparent;
+    background-color: var(--background-html-color);
     border-image: url("../image/background-images/pergaminho-mobile-01.png") 125 round;
     /* OPÇÃO DE BORDA 1
     /* border:3rem solid transparent;
