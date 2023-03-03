@@ -20,6 +20,7 @@
     text-transform: uppercase;
     
     margin-top: 3rem;
+    color: var(--general-title-color);
 }
 
 .container .books .genre .genre-title{
@@ -33,6 +34,8 @@
 .container .books .genre .book-name{
     font-size: 2.8rem;
     text-align: center;
+    color: var(--book-name-color);
+
     margin-top: 2rem;
 }
 
@@ -64,11 +67,7 @@
 
 /* FICCAO CIENTIFICA */
 .container .books .genre{
-    /*border: 0.4rem solid;
-    padding: 1rem;
-    border-image-source: linear-gradient(45deg, rgb(34, 33, 33), rgb(202, 188, 188));
-    border-image-slice: 1; */
     border: 30px solid transparent;
-    background-color: var(--background-books);
+    background-color: var(--background-books-color);
     border-image: url(../image/border/borda-tipo-filme_clipdrop-background-removal.png) 150 round;
 }

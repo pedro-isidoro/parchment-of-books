@@ -5,11 +5,11 @@ html{
 
 body{
     max-height: 100%;
-    border: 6.45rem solid transparent;
-    background-color: #F6DD8F;
+    border: 4.85rem solid transparent;
+    background-color: var(--background-html-color);
     border-image: url("../image/background-images/pergaminho-borda-vermelha_clipdrop-background-removal.png") 125 round;
-    margin: 2.6rem 1rem;
-    padding: 1rem 0.4rem;
+    margin: 1rem;
+    padding: 1rem 0.25rem;
     
     display: grid;
     grid: 'header'
@@ -21,7 +21,7 @@ hr{
     width: 100%;
     margin-top: 2.8rem;
     margin-bottom: 2.8rem;
-    border-color: rgba(12, 12, 12, 0.918);
+    border-color: var(--hr-color);
 }
 
 /* HEADER */
@@ -29,7 +29,7 @@ hr{
     grid-area: header;
     max-width: 100%;
     border-bottom: 0.1rem solid black;
-    padding: 0 0 0.6rem 0.4rem;
+    padding: 0 0 1rem 0.4rem;
     
     display: flex;
     flex-direction: column;
@@ -40,7 +40,7 @@ hr{
 .header .logo{
     display: flex;
     align-items: center;
-    margin: 1rem 0;
+    margin: 1.4rem 0;
 }
 
 .header .logo a img{
@@ -49,7 +49,6 @@ hr{
 
 .header .logo .logo-title{
     font-size: 2.2rem;
-    margin-left: 1.2rem;
 }
 
 /* Navegation */
@@ -63,7 +62,7 @@ hr{
 }
 
 .header .menu li a{
-    color: var(--heading-color);
+    color: var(--menu-anchors-color);
 
     padding: 0.4rem 0.8rem;
     border-radius: 2rem;

@@ -1,9 +1,15 @@
 :root{
     --background-html-color: rgb(246, 221, 143);
-    --background-books: rgb(220, 173, 75);
 
+    --hr-color: rgba(12, 12, 12, 0.918);
+
+    --general-title-color: rgb(109, 86, 38);
+    --background-books-color: rgb(220, 173, 75);
+    --book-name-color: #f5f1ec;
+    
     --background-hover-link-color: rgb(131, 6, 0);
-    --link-color: white;
+    --menu-anchors-color: rgb(239, 0, 13);
+    --link-color: #f5f1ec;
 
     --icon-instagram-color: ;
     --icon-facebook-color: ;
