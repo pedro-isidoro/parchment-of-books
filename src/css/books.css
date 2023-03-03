@@ -57,8 +57,8 @@
 
 .container .books .genre .books-images .book{
     display: flex;
-    width: 153px;
-    height: 225px;
+    width: 91.65px;
+    height: 142.25px;
 }
 
 .container .books .genre .books-images .book img{
@@ -67,7 +67,8 @@
 
 /* FICCAO CIENTIFICA */
 .container .books .genre{
-    border: 30px solid transparent;
+    border: 2.4rem solid transparent;
     background-color: var(--background-books-color);
     border-image: url(../image/border/borda-tipo-filme_clipdrop-background-removal.png) 150 round;
+
 }
