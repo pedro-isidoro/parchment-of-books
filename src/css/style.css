@@ -4,14 +4,15 @@ html{
 }
 
 body{
-    max-height: 100%;
-    /* border: 4.85rem solid transparent;
-    background-color: var(--background-html-color);
-    border-image: url("../image/background-images/pergaminho-borda-vermelha_clipdrop-background-removal.png") 125 round; */
-    border:3rem solid transparent;
-    background-color: ;
-    border-image: url();
+    /* OPÇÃO DE BORDA 1 */
+    border: 4.85rem solid transparent;
+    border-image: url("../image/background-images/pergaminho-mobile-01.png") 125 round;
+    /* OPÇÃO DE BORDA 1 */
+    /* border:3rem solid transparent;
+    background-color: #E6AA5A;
+    border-image: url("../image/background-images/pergaminho-mobile-02.png") 125 round; */
 
+    max-height: 100%;
     margin: 1rem;
     padding: 1rem 0.25rem;
     
