@@ -4,17 +4,13 @@ html{
 }
 
 body{
-    /* background-color: var(--background-body-color);
-    border: 0.78rem double black;
-    box-shadow: 1.2rem 1.2rem rgba(12, 12, 12, 0.918); */
     max-height: 100%;
-    margin: 2.6rem 1rem;
-    padding: 1rem 0.4rem;
-
     border: 6.45rem solid transparent;
     background-color: #F6DD8F;
-    border-image: url("../image/background-images/pergaminho-borda-vermelha_clipdrop-background-removal.png") 130 round;
-
+    border-image: url("../image/background-images/pergaminho-borda-vermelha_clipdrop-background-removal.png") 125 round;
+    margin: 2.6rem 1rem;
+    padding: 1rem 0.4rem;
+    
     display: grid;
     grid: 'header'
            'container'
@@ -36,7 +32,7 @@ hr{
     padding: 0 0 0.6rem 0.4rem;
     
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
 }
 
@@ -44,6 +40,7 @@ hr{
 .header .logo{
     display: flex;
     align-items: center;
+    margin: 1rem 0;
 }
 
 .header .logo a img{
@@ -73,8 +70,8 @@ hr{
 }
 
 .header .menu li a:hover{
-    background-color: var(--background-paragraph-color);
-    color: var(--paragraph-color);
+    background-color: var(--background-hover-link-color);
+    color: var(--link-color);
 }
 
 /* FOOTER */

@@ -1,9 +1,10 @@
 :root{
     --background-html-color: rgb(246, 221, 143);
-    --background-body-color: #D5942D;
     --background-books: rgb(220, 173, 75);
-    
-    --link-color: ;
+
+    --background-hover-link-color: rgb(131, 6, 0);
+    --link-color: white;
+
     --icon-instagram-color: ;
     --icon-facebook-color: ;
     --icon-whatsapp-color: ;
