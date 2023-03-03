@@ -5,9 +5,13 @@ html{
 
 body{
     max-height: 100%;
-    border: 4.85rem solid transparent;
+    /* border: 4.85rem solid transparent;
     background-color: var(--background-html-color);
-    border-image: url("../image/background-images/pergaminho-borda-vermelha_clipdrop-background-removal.png") 125 round;
+    border-image: url("../image/background-images/pergaminho-borda-vermelha_clipdrop-background-removal.png") 125 round; */
+    border:3rem solid transparent;
+    background-color: ;
+    border-image: url();
+
     margin: 1rem;
     padding: 1rem 0.25rem;
     
