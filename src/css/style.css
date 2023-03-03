@@ -1,14 +1,19 @@
 html{
     font-size: 62.5%;
+    background-color: var(--background-html-color);
 }
 
 body{
-    background-color: var(--general-background-color);
+    /* background-color: var(--background-body-color);
     border: 0.78rem double black;
-    box-shadow: 1.2rem 1.2rem rgba(12, 12, 12, 0.918);
+    box-shadow: 1.2rem 1.2rem rgba(12, 12, 12, 0.918); */
     max-height: 100%;
-    margin: 2.6rem 3rem;
-    padding: 2.8rem 1.4rem;
+    margin: 2.6rem 1rem;
+    padding: 1rem 0.4rem;
+
+    border: 6.45rem solid transparent;
+    background-color: #F6DD8F;
+    border-image: url("../image/background-images/pergaminho-borda-vermelha_clipdrop-background-removal.png") 130 round;
 
     display: grid;
     grid: 'header'
@@ -26,7 +31,6 @@ hr{
 /* HEADER */
 .header{
     grid-area: header;
-    background-color: var(--general-background-color);
     max-width: 100%;
     border-bottom: 0.1rem solid black;
     padding: 0 0 0.6rem 0.4rem;
@@ -77,6 +81,4 @@ hr{
 .footer{
     grid-area: footer;
     max-width: 100%;
-
-    background-color: var(--general-background-color);
 }

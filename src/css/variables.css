@@ -1,12 +1,6 @@
 :root{
-    --background-html-color: ;
-    --general-background-color: #DFC6A8;
-    --general-background-color-2: #e2c39c;
-    --heading-color: ;
-    --headings-color: ;
-    --background-paragraph-color: ;
-    --paragraph-color: ;
-
+    --background-html-color: rgb(246, 221, 143);
+    --background-body-color: #D5942D;
     --background-books: rgb(220, 173, 75);
     
     --link-color: ;

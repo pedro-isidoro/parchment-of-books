@@ -1,7 +1,6 @@
 /* CONTAINER */
 .container{
     grid-area: container;
-    background-color: var(--general-background-color);
     max-width: 100%;
     max-height: 100%;
 }
