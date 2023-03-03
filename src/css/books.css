@@ -71,5 +71,5 @@
     border-image-slice: 1; */
     border: 30px solid transparent;
     background-color: var(--background-books);
-    border-image: url(../image/borda-tipo-filme_clipdrop-background-removal.png) 150 round;
+    border-image: url(../image/border/borda-tipo-filme_clipdrop-background-removal.png) 150 round;
 }

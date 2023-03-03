@@ -4,8 +4,8 @@ html{
 
 body{
     background-color: var(--general-background-color);
-    /* border: 0.78rem double black;
-    box-shadow: 1.2rem 1.2rem rgba(12, 12, 12, 0.918); */
+    border: 0.78rem double black;
+    box-shadow: 1.2rem 1.2rem rgba(12, 12, 12, 0.918);
     max-height: 100%;
     margin: 2.6rem 3rem;
     padding: 2.8rem 1.4rem;
