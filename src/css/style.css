@@ -114,11 +114,47 @@ hr{
 .footer{
     grid-area: footer;
     max-width: 100%;
+    margin: 1rem 0;
 }
 
 .footer .inside-the-footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* FOOTER: FLEX - ROW */
+.footer .inside-the-footer .footer-header,
+.footer .inside-the-footer .footer-header .footer-logo,
+.footer .inside-the-footer .footer-header .navegation .footer-menu,
+.footer .inside-the-footer .contacts .nets{
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
+.footer .inside-the-footer .footer-header{
+    margin: 1.4rem;
+}
+
+.footer .inside-the-footer .footer-header .footer-logo{
+    margin: 0 0.6rem;
+}
+
+.footer .inside-the-footer .footer-header .navegation .footer-menu{
+    font-size: 2rem;
+}
+
+.footer .inside-the-footer .footer-header .navegation .footer-menu li{
+    margin: 0 1rem;
+}
+
+.footer .inside-the-footer .contacts{
+    margin-top: 1rem;
+}
+
+.footer .inside-the-footer .contacts .nets li{
+    font-size: 2rem;
+    margin: 0 1rem;
+}
