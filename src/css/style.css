@@ -1,10 +1,18 @@
+@font-face {
+    font-family: 'newspaper';
+    src: url('../text-font/alex-brush/AlexBrush-Regular.ttf');
+    /* src: url('../text-font/newspaper-2/NewspaperCutoutWhiteOnBlac-Rg.ttf'); */
+}
+
 html{
     font-size: 62.5%;
+
+    font-family: 'newspaper';
 }
 
 body{
     /* OPÇÃO DE BORDA 1 */
-    border: 3rem solid transparent;
+    border: 4.8rem solid transparent;
     background-color: var(--background-html-color);
     border-image: url("../image/background-images/pergaminho-mobile-01.png") 125 round;
     /* OPÇÃO DE BORDA 1
@@ -52,7 +60,8 @@ hr{
 }
 
 .header .logo .logo-title{
-    font-size: 2.2rem;
+    font-size: 3.6rem;
+    margin-left: 1rem;
 }
 
 /* Navegation */
@@ -62,19 +71,43 @@ hr{
 
 .header .menu li{
     padding: 0.1rem;
-    font-size: 2rem;
+    font-size: 2.6rem;
 }
 
 .header .menu li a{
-    color: var(--menu-anchors-color);
+    color: var(--anchors-color);
 
     padding: 0.4rem 0.8rem;
-    border-radius: 2rem;
 }
 
 .header .menu li a:hover{
     background-color: var(--background-hover-link-color);
     color: var(--link-color);
+}
+
+/* CONTAINER */
+.container{
+    margin: 1rem 0;
+}
+
+.container .panel{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+}
+
+.container .panel .general-title{
+    margin: 1.8rem 0;
+    font-size: 3.4rem;
+}
+
+.container .panel p{
+    margin: 0 1rem;
+    font-size: 3rem;
+    line-height: 3rem;
 }
 
 /* FOOTER */
