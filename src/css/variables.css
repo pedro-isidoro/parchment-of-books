@@ -11,7 +11,8 @@
     --anchors-color: rgb(255, 16, 4);
     --link-color: #f5f1ec;
 
-    --icon-instagram-color: ;
-    --icon-facebook-color: ;
-    --icon-whatsapp-color: ;
+    --high-color: rgb(131, 6, 0);
+    --instagram-icon-color: rgb(255, 53, 87);
+    --whatsapp-icon-color: rgb(40, 207, 40);
+    --github-icon-color: rgb(10, 12, 16);
 }

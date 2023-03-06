@@ -182,24 +182,31 @@ hr{
 }
 
 /* CONTACTS */
-
-.footer .inside-the-footer .contacts{
-    margin-top: 1rem;
-}
-
 .footer .inside-the-footer .contacts .nets li{
-    font-size: 2rem;
+    font-size: 2.2rem;
     margin: 0 1rem;
 }
 
-.footer .inside-the-footer .contacts .nets ul .instagram{
+.footer .inside-the-footer .contacts .nets li a i{
+    padding: 0.6rem;
+    border-radius: 2.5rem;
+    border: solid 0.2rem transparent;
+}
+
+.footer .inside-the-footer .contacts .nets .instagram{
     color: var( --instagram-icon-color);
 }
 
-.footer .inside-the-footer .contacts .nets ul .whatsapp{
+.footer .inside-the-footer .contacts .nets .whatsapp{
     color: var(--whatsapp-icon-color);
 }
 
-.footer .inside-the-footer .contacts .nets ul .github{
+.footer .inside-the-footer .contacts .nets .github{
     color: var(--github-icon-color);
+}
+
+.footer .inside-the-footer .contacts .nets li a i:hover{
+    color: var(--high-color);
+    border-radius: 2.5rem;
+    border-color: var(--high-color);
 }
