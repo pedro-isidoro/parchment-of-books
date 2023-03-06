@@ -115,3 +115,10 @@ hr{
     grid-area: footer;
     max-width: 100%;
 }
+
+.footer .inside-the-footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
