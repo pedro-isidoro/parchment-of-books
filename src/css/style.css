@@ -12,7 +12,7 @@ html{
 
 body{
     /* OPÇÃO DE BORDA 1 */
-    border: 4.8rem solid transparent;
+    border: 4rem solid transparent;
     background-color: var(--background-html-color);
     border-image: url("../image/background-images/pergaminho-mobile-01.png") 125 round;
     /* OPÇÃO DE BORDA 1
@@ -21,6 +21,7 @@ body{
     border-image: url("../image/background-images/pergaminho-mobile-02.png") 180 round; */
 
     max-height: 100%;
+    max-width: 100%;
     padding: 1rem 0.2rem;
     
     display: grid;
@@ -87,7 +88,7 @@ hr{
 
 /* CONTAINER */
 .container{
-    margin: 1rem 0;
+    margin: 1.2rem 0;
 }
 
 .container .panel{
@@ -100,7 +101,7 @@ hr{
 }
 
 .container .panel .general-title{
-    margin: 1.8rem 0;
+    margin: 2rem;
     font-size: 3.4rem;
 }
 
@@ -117,7 +118,9 @@ hr{
     margin: 1rem 0;
 }
 
-.footer .inside-the-footer{
+/* FOOTER: FLEX - column */
+.footer .inside-the-footer,
+.footer .inside-the-footer .footer-header{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -125,7 +128,6 @@ hr{
 }
 
 /* FOOTER: FLEX - ROW */
-.footer .inside-the-footer .footer-header,
 .footer .inside-the-footer .footer-header .footer-logo,
 .footer .inside-the-footer .footer-header .navegation .footer-menu,
 .footer .inside-the-footer .contacts .nets{
@@ -142,8 +144,17 @@ hr{
     margin: 0 0.6rem;
 }
 
-.footer .inside-the-footer .footer-header .navegation .footer-menu{
+.footer .inside-the-footer .footer-header .footer-logo a img{
+    width: 100%;    
+}
+
+.footer .inside-the-footer .footer-header .footer-logo .footer-logo-title{
+    margin-left: 0.4rem;
     font-size: 2rem;
+}
+
+.footer .inside-the-footer .footer-header .navegation .footer-menu{
+    font-size: 1.8rem;
 }
 
 .footer .inside-the-footer .footer-header .navegation .footer-menu li{
