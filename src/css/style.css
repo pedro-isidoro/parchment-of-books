@@ -145,7 +145,7 @@ hr{
 /* LOGO */
 
 .footer .inside-the-footer .footer-header .footer-logo{
-    margin: 1.4rem 0;
+    margin: 1rem 0 1.4rem 0;
 }
 
 .footer .inside-the-footer .footer-header .footer-logo a img{
@@ -192,11 +192,14 @@ hr{
     margin: 0 1rem;
 }
 
-.footer .inside-the-footer .contacts .nets li a{
-    color: var();
+.footer .inside-the-footer .contacts .nets ul .instagram{
+    color: var( --instagram-icon-color);
 }
 
-.footer .inside-the-footer .contacts .nets li a:hover{
-    color: var();
-    background-color: var();
+.footer .inside-the-footer .contacts .nets ul .whatsapp{
+    color: var(--whatsapp-icon-color);
+}
+
+.footer .inside-the-footer .contacts .nets ul .github{
+    color: var(--github-icon-color);
 }
