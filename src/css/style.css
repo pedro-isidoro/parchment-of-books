@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'newspaper';
+    font-family: 'Kalligraphía';
     src: url('../text-font/alex-brush/AlexBrush-Regular.ttf');
     /* src: url('../text-font/newspaper-2/NewspaperCutoutWhiteOnBlac-Rg.ttf'); */
 }
@@ -7,7 +7,7 @@
 html{
     font-size: 62.5%;
 
-    font-family: 'newspaper';
+    font-family: 'Kalligraphía';
 }
 
 body{
