@@ -12,7 +12,7 @@ html{
 
 body{
     /* OPÇÃO DE BORDA 1 */
-    border: 2rem solid transparent;
+    border: 3.6rem solid transparent;
     background-color: var(--background-html-color);
     border-image: url("../image/background-images/pergaminho-mobile-01.png") 125 round;
 
@@ -20,6 +20,11 @@ body{
     max-width: 100%;
     padding: 1rem 0.2rem;
     
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
     display: grid;
     grid: 'header'
            'container'
@@ -103,8 +108,8 @@ hr{
 }
 
 .container .panel p{
-    margin: 0 1rem;
-    font-size: 3rem;
+    margin: 0 2.4rem;
+    font-size: 2.45rem;
     line-height: 3rem;
 }
 
