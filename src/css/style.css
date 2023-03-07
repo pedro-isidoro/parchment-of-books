@@ -118,6 +118,7 @@ hr{
     grid-area: footer;
     max-width: 100%;
     margin: 1rem 0;
+    padding: 0 1rem;
 }
 
 .footer .inside-the-footer .footer-header{
@@ -153,8 +154,8 @@ hr{
 }
 
 .footer .inside-the-footer .footer-header .footer-logo .footer-logo-title{
-    margin-left: 0.4rem;
-    font-size: 2.4rem;
+    margin-left: 1rem;
+    font-size: 2.8rem;
 }
 
 /* Navegation */ 
@@ -171,8 +172,7 @@ hr{
 
 .footer .inside-the-footer .footer-header .navegation .footer-menu li a{
     color: var(--anchors-color);
-
-    padding: 0.4rem 0.6rem;
+    padding: 0.2rem 0.7rem;
 }
 
 .footer .inside-the-footer .footer-header .navegation .footer-menu li a:hover{
@@ -183,7 +183,7 @@ hr{
 
 /* CONTACTS */
 .footer .inside-the-footer .contacts .nets li{
-    font-size: 2.2rem;
+    font-size: 2.3rem;
     margin: 0 1rem;
 }
 
