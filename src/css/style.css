@@ -6,7 +6,6 @@
 
 html{
     font-size: 62.5%;
-
     font-family: 'Kalligraphía';
 }
 
@@ -18,7 +17,7 @@ body{
 
     max-height: 100%;
     max-width: 100%;
-    padding: 1rem 0.8rem;
+    padding: 1rem 0.6rem;
     margin: 0 0.8rem;
     
     display: flex;
