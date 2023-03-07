@@ -18,7 +18,8 @@ body{
 
     max-height: 100%;
     max-width: 100%;
-    padding: 1rem 1rem 1rem 0.8rem;
+    padding: 1rem 0.8rem;
+    margin: 0 0.8rem;
     
     display: flex;
     flex-direction: column;
@@ -27,8 +28,8 @@ body{
 
     display: grid;
     grid: 'header'
-           'container'
-           'footer';
+          'container'
+          'footer';
 }
 
 hr{
@@ -41,8 +42,7 @@ hr{
 .header{
     grid-area: header;
     max-width: 100%;
-    border-bottom: 0.1rem solid black;
-    padding: 0 0 1rem 0.4rem;
+    padding: 0 1rem;
     
     display: flex;
     flex-direction: column;
@@ -53,7 +53,7 @@ hr{
 .header .logo{
     display: flex;
     align-items: center;
-    margin: 1.4rem 0;
+    margin: 1rem;
 }
 
 .header .logo a img{
@@ -61,7 +61,7 @@ hr{
 }
 
 .header .logo .logo-title{
-    font-size: 3.6rem;
+    font-size: 3.2rem;
     margin-left: 1rem;
 }
 
@@ -72,14 +72,14 @@ hr{
 
 .header .menu li{
     padding: 0.2rem;
-    margin: 0 0.4rem;
+    margin: 0 0.2rem;
     font-size: 2.6rem;
 }
 
 .header .menu li a{
     color: var(--anchors-color);
 
-    padding: 0.4rem 1rem;
+    padding: 0.2rem 0.7rem;
 }
 
 .header .menu li a:hover{
@@ -90,7 +90,7 @@ hr{
 
 /* CONTAINER */
 .container{
-    margin: 1.2rem 0;
+    margin: 1.2rem 1rem;
 }
 
 .container .panel{
@@ -103,13 +103,13 @@ hr{
 }
 
 .container .panel .general-title{
-    margin: 2rem;
-    font-size: 3.6rem;
+    margin: 1rem 0;
+    font-size: 3.2rem;
 }
 
 .container .panel p{
-    margin: 0 2.4rem;
-    font-size: 2.45rem;
+    margin: 0 1.4rem;
+    font-size: 2.6rem;
     line-height: 3rem;
 }
 
