@@ -37,11 +37,17 @@ hr{
     border-color: var(--hr-color);
 }
 
+.header-hr, .contaner-hr{
+    width: 90%;
+    margin: 2.8rem 0;
+    border-color: var(--hr-color);
+}
+
 /* HEADER */
 .header{
     grid-area: header;
     max-width: 100%;
-    padding: 0 1rem;
+    padding: 1rem;
     
     display: flex;
     flex-direction: column;
@@ -52,7 +58,7 @@ hr{
 .header .logo{
     display: flex;
     align-items: center;
-    margin: 1rem;
+    margin: 1rem 0;
 }
 
 .header .logo a img{
