@@ -39,7 +39,7 @@ hr{
 
 .header-hr, .contaner-hr{
     width: 90%;
-    margin: 2.8rem 0;
+    margin: 2.8rem 0 0 0;
     border-color: var(--hr-color);
 }
 
@@ -95,7 +95,7 @@ hr{
 
 /* CONTAINER */
 .container{
-    margin: 1.2rem 1rem;
+    margin: 1rem 1rem;
 }
 
 .container .panel{
@@ -108,7 +108,7 @@ hr{
 }
 
 .container .panel .general-title{
-    margin: 1rem 0;
+    margin: 1rem 0 1.8rem 0;
     font-size: 3.2rem;
 }
 
