@@ -165,14 +165,14 @@ hr{
 
 .footer .inside-the-footer .footer-header .navegation .footer-menu li{
     padding: 0.2rem;
-    margin: 0 0.4rem;
+    margin: 0 0.2rem;
     font-size: 2.6rem;
 }
 
 .footer .inside-the-footer .footer-header .navegation .footer-menu li a{
     color: var(--anchors-color);
 
-    padding: 0.4rem 1rem;
+    padding: 0.4rem 0.6rem;
 }
 
 .footer .inside-the-footer .footer-header .navegation .footer-menu li a:hover{

@@ -50,7 +50,7 @@
 
 /* Genre ARTICLES */
 .container .books .genre{
-    margin-top: 3.4rem;
+    margin: 3.4rem 1.6rem 0 1.8rem;
 }
 
 
@@ -79,5 +79,4 @@
     border: 2.4rem solid transparent;
     background-color: var(--background-books-color);
     border-image: url(../image/border/borda-tipo-filme_clipdrop-background-removal.png) 150 round;
-
 }
