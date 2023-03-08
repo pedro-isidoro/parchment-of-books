@@ -101,4 +101,25 @@
         font-size: 3rem;
         line-height: 3rem;
     }
+
+    /* FOOTER */
+    .footer{
+        margin: 1rem 0;
+        padding: 0 1rem;
+    }
+
+    .footer .inside-the-footer .footer-header{
+        margin: 1.4rem 0;
+    }
+
+    /* FOOTER: FLEX - ROW */
+    .footer .inside-the-footer .footer-header,
+    .footer .inside-the-footer .footer-header .footer-logo,
+    .footer .inside-the-footer .footer-header .navegation .footer-menu,
+    .footer .inside-the-footer .contacts .nets{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 }
