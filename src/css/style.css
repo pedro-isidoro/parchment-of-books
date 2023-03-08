@@ -12,7 +12,6 @@ html{
 body{
     /* OPÇÃO DE BORDA 1 */
     border: 3.6rem solid transparent;
-    /* background-color: var(--background-html-color); */
     border-image: url("../image/background-images/pergaminho-mobile-01.png") 125 round;
     background-image: url(../image/background-images/pergaminho-desktop-04.jpg);
 
