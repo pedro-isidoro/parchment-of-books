@@ -104,13 +104,12 @@
 
     /* FOOTER */
     .footer{
-        margin: 1rem 0;
+        margin: 1rem 0 0.4rem 0;
         padding: 0 1rem;
     }
 
     .footer .inside-the-footer{
         display: flex;
-        flex-direction: row;
         justify-content: space-around;
         align-items: center;
     }
@@ -133,5 +132,11 @@
         padding: 0.2rem;
         margin: 0 0.2rem;
         font-size: 3rem;
+    }
+
+    /* CONTACTS */
+    .footer .inside-the-footer .contacts .nets li{
+        font-size: 2.8rem;
+        margin: 0 1.4rem;
     }
 }
