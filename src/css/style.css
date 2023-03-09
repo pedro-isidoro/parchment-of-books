@@ -37,10 +37,14 @@ hr{
     border-color: var(--hr-color);
 }
 
-.header-hr, .contaner-hr{
+.header-hr, .container-hr{
     width: 90%;
     margin: 1.6rem 0 0 0;
     border-color: var(--hr-color);
+}
+
+.container-hr{
+    margin-top: 6rem;
 }
 
 /* HEADER */
