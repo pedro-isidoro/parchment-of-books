@@ -100,6 +100,28 @@
         line-height: 3.2rem;
     }
 
+    /* Container: BOOKS */
+    .container .books .general-title{
+        font-size: 3.6rem;
+        letter-spacing: 1rem;
+        
+        margin-top: 2rem;
+        color: var(--general-title-color);
+    }
+
+    .container .books .genre .genre-title{
+        font-size: 3.8rem;
+        letter-spacing: 0.5rem;
+    
+        padding: 0.5rem;
+    }
+
+    .container .books .genre .book-name{
+        font-size: 3.4rem;
+    
+        margin-top: 2rem;
+    }
+    
     .container .books .genre .books-images .book{
         width: 183px;
         height: 285px;
