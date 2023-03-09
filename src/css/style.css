@@ -39,12 +39,12 @@ hr{
 
 .header-hr, .container-hr{
     width: 90%;
-    margin: 1.6rem 0 0 0;
+    margin: 1.8rem 0 0 0;
     border-color: var(--hr-color);
 }
 
 .container-hr{
-    margin-top: 6rem;
+    margin-top: 5rem;
 }
 
 /* HEADER */
