@@ -12,8 +12,8 @@ html{
 body{
     /* OPÇÃO DE BORDA 1 */
     border: 3.6rem solid transparent;
-    border-image: url("../image/background-images/pergaminho-mobile-01.png") 125 round;
-    background-image: url(../image/background-images/pergaminho-desktop-04.jpg);
+    border-image: url("../image/border/pergaminho-01.png") 125 round;
+    background-image: url(../image/background-images/pergaminho-04.jpg);
 
     max-height: 100%;
     max-width: 100%;
