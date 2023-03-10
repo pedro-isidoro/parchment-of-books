@@ -8,7 +8,9 @@ Nesse projeto o fiz como uma forma de auto desafio, pois esarei utilizando de um
 <br>
 
 ## Projeto
-<img> Imagem do projeto
+<img src="./src/image/bliblioteca-de-livros-pessoal.gif" alt="Imagem do projeto">
+<br>
+<br>
 
 ## Objetivo
 Criar um projeto que comporte imagens, e breves resumos das obras literárias as quais já consumi.
@@ -17,4 +19,4 @@ Criar um projeto que comporte imagens, e breves resumos das obras literárias as
 Conseguir colocar uma imagem, transparente, no fundo do container. <br> 
 Solução: Consegui resolver colocando como forma de borda no mesmo.
 <br>
-fazer primeiramente o site para mobile de forma que fique responsivo, e de forma confortavel nesses tipos de dispositivo.
+Fazer primeiramente o site para mobile de forma que fique responsivo, e de forma visivelmente bonita nesses tipos de dispositivo.
