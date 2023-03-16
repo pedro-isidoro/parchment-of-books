@@ -1,4 +1,4 @@
-# newspaper-style-books
+# parchment-of-books
 Um projeto feito para ser umaa biblioteca pessoal de livros, nos quais ja consumi. 
 <br>
 Onde estarão imbuídos livros que li desde a minha infância até os mais recentes.
